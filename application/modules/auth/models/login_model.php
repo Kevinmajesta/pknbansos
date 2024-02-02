@@ -36,7 +36,7 @@ class Login_model extends CI_Model
             return false;
           }
         }
-        else return 3;//gropu tdk aktif
+        else return 3;//group tdk aktif
 
       }
       else return 1;

@@ -61,27 +61,18 @@
 <body>
     <!--START NAVBAR -->
     <div class="navbar navbar-inverse navbar-fixed-top" style="background: #2A5DC4;">
-        <div class="navbar-inner" style="background: #2A5DC4;">
-            <div class="container" style="background: #2A5DC4;">
+        <div class="navbar-inner" style="background: #2A5DC4;;">
+            <div class="container" style="background: #2A5DC4; margin-top: 7px">
 
-                <a class="brand poppins-extrabold" style="color: #ffffff;font-weight: 500 ;" href="#"><?php echo PRODUCT_NAME ?></a>
-                <span class="brand poppins-extrabold" style="padding-bottom:5px; background: #2A5DC4; font-weight: 500"><?php echo isset($nama_pemda) ? $nama_pemda : "" ?>
-                    <span style="display:block; font-size:70%; color: #333333; font-weight: 500"><?php echo isset($nama_skpd) ? $nama_skpd : "" ?></span>
-                </span>
+                <a class="brand poppins-extrabold" style="color: #ffffff;font-weight: 500; " href="#"><?php echo PRODUCT_NAME ?></a>
+                <span class="brand poppins-extrabold" style="; color: #FFFFFF; font-weight: 500; pointer-events: none;"><?php echo isset($nama_pemda) ? $nama_pemda : "" ?></span>
                 <span class="brand poppins-extrabold" style="color: #ffffff; font-weight: 500"><?php echo isset($tahun) ? $tahun : "" ?>
                     -
                     <?php echo isset($status) ? $status : "" ?></span>
                 <div class="nav-collapse">
                     <ul class="nav pull-right">
-                        <li>
-                            <div class="btn-group" style="margin-top:7px;">
-                                <a href="<?php echo base_url() ?>logout" title="Logout" class="medium twitter button radius" style="text-decoration:none;">
-                                    <i style="font-size:16px; padding-top:3px; padding-right:5px;" class="icon-off"></i>Log out
-                                </a>
-                            </div>
-                        </li>
                         <li class="dropdown">
-                            <a href="pages.htm" class="dropdown-toggle" data-toggle="dropdown">
+                            <a href="pages.html" class="dropdown-toggle" data-toggle="dropdown">
                                 <span style="padding-right:10px; width:30px;">
 
                                     <?php $icon = $this->Group_model->get_one('ICON', 'USERS', 'ID = ' .
@@ -115,7 +106,12 @@
                                 </li>
                                 <li>
                                     <a href="error.htm">
-                                        <i style="font-size:14px; padding-top:3px; padding-right:5px;" class="icon-cogs"></i>System Settings</a>
+                                        <i style="font-size:14px; padding-top:3px; padding-right:5px;" class="icon-cog"></i>System Settings</a>
+                                </li>
+                                <li>
+                                    <a href="<?php echo base_url() ?>logout" title="Logout" class="medium twitter button radius" style="text-decoration:none;">
+                                        <i style="font-size:16px; padding-top:3px; padding-right:5px;" class="icon-off"></i>Log out
+                                    </a>
                                 </li>
                             </ul>
                         </li>
