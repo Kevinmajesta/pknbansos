@@ -1,0 +1,10 @@
+ReportName=Shared\Rpt_Daftar_SPM.fr3
+OutputType=xls
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2018\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+SQLFilter=SELECT a.id_aktivitas, a.nomor, a.tanggal, cast(substring(a.deskripsi from 1 for 5000) as varchar(5000)) deskripsi, a.id_skpd, s.kode_skpd_lkp, s.nama_skpd, a.nominal, a.id_spp, a.beban, a.keperluan, a.nominal_rincian, a.nominal_pajak, a.nama_kegiatan, a.nominal_pajak_informasi, a.nominal_kotor, a.nominal_pfk, a.nominal_pfk_informasi FROM v_spm_kegiatan a JOIN v_skpd s ON s.id_skpd = a.id_skpd WHERE a.tahun =  '2018'

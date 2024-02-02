@@ -1,0 +1,125 @@
+body {
+  position: relative;
+  padding-top: 40px;
+}
+
+.footer{
+  padding: 5px 0px;
+  text-align: center;
+  background: #454545;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  color: #fff;
+  font-size: 11px;
+  z-index: 999;
+}
+
+input.ui-pg-input {
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    line-height: normal
+}
+select.ui-pg-selbox {
+    width: auto;
+    padding: 0px;
+    margin: 0px;
+    line-height: normal
+}
+
+.ui-widget {
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1em;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+label, input, button, select, textarea {
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 12px;
+}
+
+.currency{
+    text-align: right;
+}
+
+.ui-icon-pdf {
+    background-image: url("../img/pdf.png") !important;
+    width: 16px;
+    height: 16px;
+}
+
+.ui-icon-xls{
+    background-image: url("../img/xls.png") !important;
+    width: 16px;
+    height: 16px;
+}
+
+.ui-icon-add{
+    background-image: url("../img/add2.png") !important;
+    width: 12px;
+    height: 12px;
+    position:center-left;
+}
+
+.ui-dialog .ui-dialog-buttonpane button {
+    margin: 0.2em 0.4em 0 0;
+}
+
+.control-group {
+  margin-bottom: 2px;
+}
+
+/*
+  warna baris di grid pilih, untuk hirarki
+*/
+.row-level-5 {
+  background: #defae7;
+  border: 1px solid #bffca1;
+  color: #363636;
+}
+
+.row-level-4 {
+  background: #cef9c7;
+  border: 1px solid #bffca1;
+  color: #363636;
+}
+
+.row-level-3 {
+  background: #b6f6ac;
+  border: 1px solid #bffca1;
+  color: #363636;
+}
+
+.row-level-2 {
+  background: #96f287;
+  border: 1px solid #bffca1;
+  color: #363636;
+}
+
+.row-level-1 {
+  background: #75ee62;
+  border: 1px solid #bffca1;
+  color: #363636;
+}
+
+.row-level {
+  opacity: 0.80 !important;
+}
+
+.row-bold   td {
+  font-weight : bold !important;
+  background: #FBF9EF;
+}
+
+
+.bottom-bar {
+  clear:both;
+  float:right;
+  margin:10px 0px;
+}

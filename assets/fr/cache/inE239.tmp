@@ -1,0 +1,14 @@
+ReportName=Shared\Rpt_Form_SPP.fr3
+OutputType=pdf
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2018\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+id_aktivitas=5595
+tahun=2018
+status=PAK
+keperluan=LS
+beban=BTL

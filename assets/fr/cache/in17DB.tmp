@@ -1,0 +1,10 @@
+ReportName=Shared\Rpt_Daftar_BAST.fr3
+OutputType=xls
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2018\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+SQLFilter=SELECT a.id_bast, a.nomor_bast, a.tanggal, coalesce(a.nominal, 0) nominal, a.id_rincian_anggaran, a.id_rekening, a.nama, a.nik, a.alamat, a.tanggal_lahir, a.pekerjaan, a.mewakili, a.nama_rekening, a.nomor_rekening, a.nama_bank, a.npwp, a.id_pejabat_daerah, b.nama_pejabat nama_pejabat_daerah, a.id_pejabat_penanda_tangan, c.nama_pejabat nama_pejabat_penanda_tangan, a.peruntukan, a.keperluan, a.id_skpd, d.kode_skpd_lkp, d.nama_skpd, e.uraian FROM bast a JOIN pejabat_daerah b ON a.id_pejabat_daerah = b.id_pejabat_daerah JOIN pejabat_daerah c ON a.id_pejabat_penanda_tangan = c.id_pejabat_daerah JOIN rincian_anggaran e ON e.id_rincian_anggaran = a.id_rincian_anggaran JOIN v_skpd d ON d.id_skpd = a.id_skpd WHERE EXTRACT( YEAR FROM a.tanggal) =  '2018' AND a.jenis =  'BANSOS'

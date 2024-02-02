@@ -1,0 +1,9 @@
+The following error(s) have occured:
+Memo10: Field not found: qryNPHD."NOMOR_NPHD"
+Memo11: Field not found: qryNPHD."TANGGAL_NPHD"
+Memo12: Field not found: qryNPHD."NOMOR_PROPOSAL"
+Memo15: Field not found: qryNPHD."NOMINAL_DISETUJUI"
+Memo20: Field not found: qryNPHD."NOMINAL_DISETUJUI"
+Memo24: Field not found: qryNPHD."ALAMAT_PEMOHON"
+Memo25: Field not found: qryNPHD."RINGKASAN"
+Memo4: Field not found: qryNPHD."NAMA_PEMOHON"

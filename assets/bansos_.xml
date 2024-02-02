@@ -1,0 +1,50 @@
+  
+ <REPORTS caption="Laporan Hibah dan Bansos">
+	<GROUP id="grp1" caption="LAMPIRAN ORGANISASI HIBAH DAN BANSOS">
+		<DESCRIPTION></DESCRIPTION>
+
+
+    <REPORT id="G1_0100" caption="Laporan Daftar Penerima Hibah/Bansos" file="DaftarPenerimaBansos.fr3" showfilter ="1">
+    <SELECT caption="Jenis Bantuan" default="" multiple="0" varname="Jenis_bantuan">
+				<ITEMSQL display="jenis_bantuan" key="jenis_bantuan">
+        SELECT DISTINCT cast(r.JENIS_BANTUAN as varchar(200)) as jenis_bantuan
+        FROM KATEGORI_PEMOHON r
+
+        union
+
+        select cast(' Pilih Jenis Bantuan' as varchar (200)) jenis_bantuan
+        from rdb$database
+
+				</ITEMSQL>
+			</SELECT>
+      <SELECT caption="Kategori" default="" multiple="0" varname="Kategori">
+				<ITEMSQL display="kategori" key="kategori">
+          SELECT cast(r.KATEGORI as varchar(200)) as kategori
+          FROM KATEGORI_PEMOHON r
+					where r.JENIS_BANTUAN =:jenis_bantuan
+
+					union
+
+					select cast(' Pilih Kategori' as varchar (200)) kategori
+					from rdb$database
+
+				</ITEMSQL>
+			</SELECT>
+		</REPORT>
+    <REPORT id="G1_0100" caption="Laporan Daftar Penerima Hibah/Bansos Yang Telah Menerima Berdasarkan Pertanggungjawaban" file="DaftarPenerimaBansosPertanggungjawaban.fr3" showfilter ="1">
+    <SELECT caption="Jenis Bantuan" default="" multiple="0" varname="Jenis_bantuan">
+				<ITEMSQL display="jenis_bantuan" key="jenis_bantuan">
+        SELECT DISTINCT cast(r.JENIS_BANTUAN as varchar(200)) as jenis_bantuan
+        FROM KATEGORI_PEMOHON r
+
+        union
+
+        select cast(' Pilih Jenis Bantuan' as varchar (200)) jenis_bantuan
+        from rdb$database
+
+				</ITEMSQL>
+			</SELECT>
+		</REPORT>
+	</GROUP>
+
+</REPORTS>

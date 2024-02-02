@@ -1,0 +1,10 @@
+ReportName=Shared\Rpt_Daftar_SP2D.fr3
+OutputType=xls
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2019\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+SQLFilter=SELECT a.id_aktivitas, a.nomor, a.tanggal, a.tanggal_cair, cast(substring(a.deskripsi from 1 for 5000) as varchar(5000)) deskripsi, a.id_skpd, s.kode_skpd, s.kode_skpd_lkp, s.nama_skpd, b2.nama_sumber_dana, a.no_bku, a.id_aktivitas_spm, a.nominal, a.nominal_rincian, a.nomor_spm, a.keperluan, a.beban, a.nama_kegiatan, a.nama_program, a.nominal_kotor, a.nominal_pfk, a.nominal_pfk_informasi, a.nominal_pajak, a.nominal_pajak_informasi FROM v_sp2d_kegiatan a JOIN v_skpd s ON s.id_skpd = a.id_skpd JOIN sumber_dana b2 ON b2.id_sumber_dana = a.id_sumber_dana JOIN v_spm c ON c.id_aktivitas = a.id_aktivitas_spm WHERE a.tahun =  '2019'

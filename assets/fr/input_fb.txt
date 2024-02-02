@@ -1,0 +1,13 @@
+ReportName=test_fb.fr3
+OutputType=html, pdf, xls
+DriverName=Firebird
+DBServer=pc-dev01
+DBName=D:\Databases\SIPKD\BONTANG2010.FDB 
+DBUser=sysdba
+DBPassword=masterkey
+ShortDateFormat=dd/MM/yyyy
+LongDateFormat=dd MMMM yyyy
+Param01=Judul Laporan
+Param02=Isi Laporan
+Param03=Parameter Ketiga
+Param04=Parameter Keempat

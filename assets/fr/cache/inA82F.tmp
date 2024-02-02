@@ -1,0 +1,10 @@
+ReportName=Shared\Rpt_Daftar_Pengujian.fr3
+OutputType=xls
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2018\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+SQLFilter=SELECT a.id_proposal, b.nomor nomor_proposal, b.nama_pemohon, b.alamat_pemohon, b.nominal_diajukan, iif(a.hasil_uji_material = 1, 'Diterima', 'Ditolak') hasil_uji_material, a.uji_material, iif(a.hasil_uji_administrasi = 1, 'Diterima', 'Ditolak') hasil_uji_administrasi, a.uji_administrasi FROM pengujian a JOIN proposal b ON a.id_proposal = b.id_proposal WHERE EXTRACT( YEAR FROM a.tanggal) =  '2018'

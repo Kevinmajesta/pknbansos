@@ -1,0 +1,329 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2019-09-05 03:54:01 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 03:54:11 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 03:58:33 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 03:58:33 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 04:00:27 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 04:00:27 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 04:00:28 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 04:37:53 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 04:37:55 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:33:00 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:33:03 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:40:10 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:40:57 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:49:51 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:49:51 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:52:56 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:52:57 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:52:57 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:53:54 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:53:54 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:53:55 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:54:13 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:54:14 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:54:41 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:54:43 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:54:53 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:01 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:03 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:04 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:06 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:09 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:18 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:26 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:26 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:33 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:55:54 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:00 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:03 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:03 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:03 --> Severity: Notice  --> Undefined index: NAMA_REKENING C:\wamp\www\SIMHIBANSOS_2019\application\modules\nphd\models\nphd_model.php 455
+ERROR - 2019-09-05 07:56:03 --> Severity: Notice  --> Undefined index: TOTAL_PAGU_REKENING C:\wamp\www\SIMHIBANSOS_2019\application\modules\nphd\models\nphd_model.php 455
+ERROR - 2019-09-05 07:56:04 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:31 --> Severity: Notice  --> Undefined index: NAMA_REKENING C:\wamp\www\SIMHIBANSOS_2019\application\modules\nphd\models\nphd_model.php 455
+ERROR - 2019-09-05 07:56:31 --> Severity: Notice  --> Undefined index: TOTAL_PAGU_REKENING C:\wamp\www\SIMHIBANSOS_2019\application\modules\nphd\models\nphd_model.php 455
+ERROR - 2019-09-05 07:56:32 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:33 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:35 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:38 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:38 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:56:58 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:57:01 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:57:04 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:57:09 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:57:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:26 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:26 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:35 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:45 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:45 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:46 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:47 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:58:51 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 07:59:51 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:01:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:01:58 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:02:46 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:02:56 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:02:56 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:03:07 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:03:08 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:03:15 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:07:25 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:07:26 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:07:28 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:07:29 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:07:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:07:34 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:07:35 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:07:35 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:07:52 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:09:25 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:09:25 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\proposal\controllers\proposal.php 208
+ERROR - 2019-09-05 08:09:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:09:32 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\proposal\controllers\proposal.php 208
+ERROR - 2019-09-05 08:09:34 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:09:34 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\proposal\controllers\proposal.php 195
+ERROR - 2019-09-05 08:09:57 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:09:58 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:09:58 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\proposal\controllers\proposal.php 208
+ERROR - 2019-09-05 08:09:58 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:10:00 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:10:00 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\proposal\controllers\proposal.php 191
+ERROR - 2019-09-05 08:10:11 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:10:11 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:10:11 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\proposal\controllers\proposal.php 240
+ERROR - 2019-09-05 08:13:48 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:14:36 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:18 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:20 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:20 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:20 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:25 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:26 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:28 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:45 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:46 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:49 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:50 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:54 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:55 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:56 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:17:56 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\pengujian\controllers\pengujian.php 223
+ERROR - 2019-09-05 08:17:59 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:00 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:01 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:01 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:04 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:04 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:06 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:06 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:17 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:17 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:17 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:18 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:18 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:35 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:38 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:41 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:41 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:41 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:55 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:56 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:18:57 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:19:00 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:19:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:19:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:19:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:19:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:19:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:19:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:19:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:19:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:21:32 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:21:33 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:21:35 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:21:35 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:21:36 --> Severity: Warning  --> ibase_query(): Dynamic SQL Error SQL error code = -204 Procedure unknown SISA_SPD_AKTIVITAS At line 2, column 67  C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 168
+ERROR - 2019-09-05 08:21:36 --> Query error: Dynamic SQL Error SQL error code = -204 Procedure unknown SISA_SPD_AKTIVITAS At line 2, column 67 
+ERROR - 2019-09-05 08:21:36 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:21:38 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:21:38 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:21:49 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:21:58 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:22:25 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:22:28 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:22:30 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:22:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:22:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:22:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:22:31 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:22:31 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:22:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:01 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:01 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:14 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:16 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:18 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:19 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:23:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:22 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:23 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:23 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:23:23 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:23 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:23 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:23:23 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:23 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:23:23 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:23:24 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:26 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:23:37 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:39 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:41 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:41 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:41 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:42 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:42 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:42 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:23:42 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:04 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:05 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:11 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:12 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:14 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:15 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:24:15 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:15 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:15 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:15 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:24:15 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:24:15 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:27 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:27 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:27 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:27 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:28 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:24:28 --> 404 Page Not Found --> 
+ERROR - 2019-09-05 08:24:28 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:30 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:32 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:32 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:35 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:39 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:41 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:44 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:45 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:46 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:47 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:47 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:47 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:47 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:47 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:47 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:47 --> Severity: Warning  --> ibase_query(): Dynamic SQL Error SQL error code = -204 Procedure unknown SISA_SPP_SKPD At line 2, column 60  C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 168
+ERROR - 2019-09-05 08:24:47 --> Query error: Dynamic SQL Error SQL error code = -204 Procedure unknown SISA_SPP_SKPD At line 2, column 60 
+ERROR - 2019-09-05 08:24:48 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:48 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:51 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:24:52 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:16 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:17 --> Severity: Warning  --> ibase_query(): Dynamic SQL Error SQL error code = -204 Procedure unknown SISA_SPP_SKPD At line 2, column 65  C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 168
+ERROR - 2019-09-05 08:25:17 --> Query error: Dynamic SQL Error SQL error code = -204 Procedure unknown SISA_SPP_SKPD At line 2, column 65 
+ERROR - 2019-09-05 08:25:18 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:18 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:18 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:23 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:23 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:23 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:23 --> Severity: Notice  --> Undefined index: NAMA_REKENING C:\wamp\www\SIMHIBANSOS_2019\application\modules\nphd\models\nphd_model.php 455
+ERROR - 2019-09-05 08:25:23 --> Severity: Notice  --> Undefined index: TOTAL_PAGU_REKENING C:\wamp\www\SIMHIBANSOS_2019\application\modules\nphd\models\nphd_model.php 455
+ERROR - 2019-09-05 08:25:39 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:45 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:46 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:25:54 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:26:01 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:26:22 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:26:29 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:26:31 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:26:33 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:26:33 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:08 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:08 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:08 --> Severity: Notice  --> Undefined index: NAMA_REKENING C:\wamp\www\SIMHIBANSOS_2019\application\modules\nphd\models\nphd_model.php 455
+ERROR - 2019-09-05 08:27:08 --> Severity: Notice  --> Undefined index: TOTAL_PAGU_REKENING C:\wamp\www\SIMHIBANSOS_2019\application\modules\nphd\models\nphd_model.php 455
+ERROR - 2019-09-05 08:27:09 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:09 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:11 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:13 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:14 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:22 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:33 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:50 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:50 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:53 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:54 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:27:59 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:28:07 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:28:07 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:28:17 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:28:18 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:28:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:28:39 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:29:53 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:29:56 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:30:20 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:30:40 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:30:53 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:30:55 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:30:55 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:31:10 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:11 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:11 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\proposal\controllers\proposal.php 208
+ERROR - 2019-09-05 08:32:11 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:11 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\proposal\controllers\proposal.php 191
+ERROR - 2019-09-05 08:32:13 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:15 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:15 --> Severity: Warning  --> Creating default object from empty value C:\wamp\www\SIMHIBANSOS_2019\application\modules\proposal\controllers\proposal.php 240
+ERROR - 2019-09-05 08:32:19 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:25 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:49 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:50 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:50 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:32:57 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:33:48 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:34:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:35:22 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:35:39 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:35:42 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:35:59 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:36:02 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:36:34 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:40:57 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:41:19 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2019-09-05 08:41:24 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\SIMHIBANSOS_2019\system\database\drivers\firebird\firebird_driver.php 85

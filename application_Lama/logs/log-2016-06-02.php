@@ -1,0 +1,37 @@
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed'); ?>
+
+ERROR - 2016-06-02 05:25:40 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:25:43 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:25:44 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:25:45 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:25:53 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:25:54 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:25:55 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:12 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:16 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:17 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:22 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:29 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:36 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:39 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:48 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:53 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:53 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:26:53 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:30:04 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:30:07 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:30:12 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:30:35 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:30:40 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:30:42 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:30:46 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:30:47 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:30:47 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:33:12 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:33:15 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:33:21 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:33:26 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:33:29 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:33:32 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:33:36 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85
+ERROR - 2016-06-02 05:33:40 --> Severity: Notice  --> Undefined property: CI_DB_Firebird_driver::$dialect C:\wamp\www\bansos\system\database\drivers\firebird\firebird_driver.php 85

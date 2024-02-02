@@ -1,0 +1,78 @@
+
+#login-box {
+	width:333px;
+	height: 352px;
+	padding: 50px 75px 0 65px;
+	color: #ebebeb;
+	font: 12px Arial, Helvetica, sans-serif;
+	background: url(../img/login-box-backg.png) no-repeat left top;
+  margin:auto;
+  top: 10%;
+  left: 30%;
+}
+
+#login-box img {
+	border:none;
+}
+
+#login-box h2 {
+	padding:0;
+	margin:0;
+	color: #ebebeb;
+	font: bold 34px "Calibri", Arial;
+}
+
+
+.form-login  {
+	width: 205px;
+	padding: 10px 4px 6px 3px;
+	border: 1px solid #0d2c52;
+	background-color:#1e4f8a;
+	font-size: 16px;
+	color: #ebebeb;
+}
+
+
+.login-box-options  {
+	clear:both;
+	padding-left:87px;
+	font-size: 11px;
+}
+
+.login-box-options a {
+	color: #ebebeb;
+	font-size: 11px;
+}
+
+
+.modal-body {
+    max-height: 400px;
+    overflow-y: auto;
+    padding: 1px;
+    position: relative;
+    margin: 15px 0 0 190px
+}
+
+.modal-body label {
+  font-weight:bold;
+}
+
+#garuda {
+	width:173px;
+	height: 178px;
+	background: no-repeat left top;
+  float:left;
+  margin-top :40px;
+}
+
+#msg{
+    display: none;
+    font-family: Arial,sans-serif;
+    font-size: 14px;
+    text-align: center;
+    color: red;
+    padding: 5px 5px 5px 5px;
+    background-color: #ffccce;
+    border:1px solid #bbe7fc;
+    border-radius: 2px 2px 2px 2px;
+} 

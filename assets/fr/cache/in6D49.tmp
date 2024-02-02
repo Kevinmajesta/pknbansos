@@ -1,0 +1,10 @@
+ReportName=Shared\Rpt_Form_SP2D.fr3
+OutputType=pdf
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2019\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+id=0

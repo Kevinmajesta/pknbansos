@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TfrxReport Version="5.2" DotMatrixReport="False" EngineOptions.UseFileCache="True" IniFile="\Software\Fast Reports" PreviewOptions.Buttons="4095" PreviewOptions.Zoom="1" PreviewOptions.PictureCacheInFile="True" PrintOptions.Printer="Default" PrintOptions.PrintOnSheet="0" ReportOptions.CreateDate="41663,3841247106" ReportOptions.Description.Text="" ReportOptions.LastChange="43412,4566085648" ScriptLanguage="PascalScript" ScriptText.Text="begin&#13;&#10;  qryBAST.SQL.Text := &#60;SQLFilter&#62;;                    &#13;&#10;end.">
+  <Datasets>
+    <item DataSet="frxDBPemda" DataSetName="frxDBPemda"/>
+    <item DataSet="qryBAST" DataSetName="qryBAST"/>
+  </Datasets>
+  <Variables>
+    <item Name=" Const"/>
+    <item Name="App_Title" Value="'Sistem Informasi Manajemen Hibah dan Bantuan Sosial'"/>
+    <item Name=" Text_Input"/>
+    <item Name="hal_no" Value="'1'"/>
+    <item Name="SQLFilter" Value="'SELECT a.id_proposal, a.nomor nomor_nphd, a.tanggal tanggal_nphd, b.nomor nomor_proposal, b.nama_pemohon, b.alamat_pemohon, b.nominal_disetujui, cast(substring(b.ringkasan from 1 for 5000) as varchar(5000)) ringkasan FROM bast a JOIN proposal b ON a.id_proposal = b.id_proposal'"/>
+    <item Name="tahun" Value="2016"/>
+  </Variables>
+  <TfrxDataPage Name="Data" Height="1000" Left="0" Top="0" Width="1000">
+    <TfrxDBXQuery Name="frxDBPemda" UserName="frxDBPemda" CloseDataSource="True" FieldAliases.Text="" BCDToCurrency="False" IgnoreDupParams="False" SQL.Text="SELECT * FROM PEMDA                                                " PropData="05704C656674038C000470546F7002200A506172616D65746572730100"/>
+    <TfrxDBXQuery Name="qryBAST" UserName="qryBAST" CloseDataSource="True" FieldAliases.Text="" BCDToCurrency="False" IgnoreDupParams="False" SQL.Text="SELECT    &#13;&#10;       r.NOMOR_BAST&#13;&#10;       , r.TANGGAL&#13;&#10;       , r.NOMINAL&#13;&#10;       , r.NAMA&#13;&#10;       , r.PERUNTUKAN&#13;&#10;       , r.KEPERLUAN&#13;&#10;FROM BAST r&#13;&#10;WHERE EXTRACT( YEAR FROM r.TANGGAL) =:tahun AND r.JENIS = 'BANSOSNON'    " PropData="05704C656674024C0470546F70021C0A506172616D657465727301010C3F000000204E616D653D22746168756E222044617461547970653D226674496E7465676572222045787072657373696F6E3D22262336303B746168756E262336323B220000"/>
+  </TfrxDataPage>
+  <TfrxReportPage Name="Page1" Orientation="poLandscape" PaperWidth="297" PaperHeight="210" PaperSize="9" LeftMargin="15" RightMargin="15" TopMargin="10" BottomMargin="10" ColumnWidth="0" ColumnPositions.Text="" HGuides.Text="" VGuides.Text="">
+    <TfrxReportTitle Name="ReportTitle1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="41,57483" Left="0" Top="18,89765" Width="1009,13451" Child="Child1" Stretched="True">
+      <TfrxMemoView Name="Memo23" Left="0" Top="3,77953" Width="1046,92981" Height="26,45671" StretchMode="smMaxHeight" AutoWidth="True" Font.Charset="1" Font.Color="-16777208" Font.Height="-21" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="[UpperCase( &#60;frxDBPemda.&#34;NAMA_PEMDA&#34;&#62; )]"/>
+    </TfrxReportTitle>
+    <TfrxMasterData Name="MasterData1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="18,89765" Left="0" Top="238,11039" Width="1009,13451" ColumnWidth="0" ColumnGap="0" DataSet="qryBAST" DataSetName="qryBAST" RowCount="0" Stretched="True">
+      <TfrxMemoView Name="Memo10" Left="0" Top="0" Width="113,3859" Height="18,89765" StretchMode="smMaxHeight" DataField="NOMOR_BAST" DataSet="qryBAST" DataSetName="qryBAST" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[qryBAST.&#34;NOMOR_BAST&#34;]"/>
+      <TfrxMemoView Name="Memo11" Left="113,3859" Top="0" Width="86,92919" Height="18,89765" StretchMode="smMaxHeight" DataSet="qryBAST" DataSetName="qryBAST" DisplayFormat.FormatStr="dd mmm yyyy" DisplayFormat.Kind="fkDateTime" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[formatdatetime('dd mmmm yyyy', &#60;qryBAST.&#34;TANGGAL&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo15" Left="899,52814" Top="0" Width="113,3859" Height="18,89765" StretchMode="smMaxHeight" DataField="NOMINAL" DataSet="qryBAST" DataSetName="qryBAST" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="14" HAlign="haRight" ParentFont="False" Text="[qryBAST.&#34;NOMINAL&#34;]"/>
+      <TfrxMemoView Name="Memo4" Left="200,31458472" Top="0" Width="151,181102362205" Height="18,89765" StretchMode="smMaxHeight" DataField="NAMA" DataSet="qryBAST" DataSetName="qryBAST" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[qryBAST.&#34;NAMA&#34;]"/>
+      <TfrxMemoView Name="Memo13" Left="873,07143" Top="0" Width="26,45671" Height="18,89765" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="13" ParentFont="False" Text="Rp"/>
+      <TfrxMemoView Name="Memo24" Left="351,49629" Top="0" Width="430,86642" Height="18,89765" StretchMode="smMaxHeight" DataField="PERUNTUKAN" DataSet="qryBAST" DataSetName="qryBAST" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="15" ParentFont="False" Text="[qryBAST.&#34;PERUNTUKAN&#34;]"/>
+      <TfrxMemoView Name="Memo25" Left="782,36271" Top="0" Width="90,70872" Height="18,89765" StretchMode="smMaxHeight" DataField="KEPERLUAN" DataSet="qryBAST" DataSetName="qryBAST" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="15" HAlign="haCenter" ParentFont="False" Text="[qryBAST.&#34;KEPERLUAN&#34;]"/>
+    </TfrxMasterData>
+    <TfrxPageFooter Name="PageFooter1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22,67718" Left="0" Top="362,83488" Width="1009,13451">
+      <TfrxMemoView Name="Memo1" Left="1005,35498" Top="3,77953000000002" Width="41,57483" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="[&#60;Page&#62; + &#60;hal_no&#62; - 1]"/>
+      <TfrxMemoView Name="Memo17" Left="910,86673" Top="3,77953000000002" Width="94,48825" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" HAlign="haRight" ParentFont="False" Text="Halaman :"/>
+      <TfrxMemoView Name="Memo18" Left="0" Top="3,77953000000002" Width="453,5436" Height="18,89765" Font.Charset="1" Font.Color="0" Font.Height="-9" Font.Name="Arial" Font.Style="0" ParentFont="False" Text="[App_Title]"/>
+    </TfrxPageFooter>
+    <TfrxPageHeader Name="PageHeader1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="34,01577" Left="0" Top="143,62214" Width="1009,13451">
+      <TfrxMemoView Name="Memo2" Left="0" Top="3,77953" Width="113,38583898" Height="30,23622047" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="15066597" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="No. BAST"/>
+      <TfrxMemoView Name="Memo3" Left="113,3859" Top="3,77953" Width="86,92914118" Height="30,23624" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="15066597" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Tanggal BAST"/>
+      <TfrxMemoView Name="Memo5" Left="873,07143" Top="3,77953" Width="139,84261" Height="30,23624" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="15066597" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Nominal"/>
+      <TfrxMemoView Name="Memo7" Left="351,49629" Top="3,77953" Width="430,86642" Height="30,23624" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="15066597" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Peruntukan"/>
+      <TfrxMemoView Name="Memo8" Left="782,36271" Top="3,77953" Width="90,70872" Height="30,23624" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="15066597" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Keperluan"/>
+      <TfrxMemoView Name="Memo21" Left="200,31509" Top="3,77953" Width="151,18110236" Height="30,23624" Font.Charset="1" Font.Color="-16777208" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" Fill.BackColor="15066597" HAlign="haCenter" ParentFont="False" VAlign="vaCenter" Text="Nama"/>
+    </TfrxPageHeader>
+    <TfrxFooter Name="Footer1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="22,67718" Left="0" Top="279,68522" Width="1009,13451">
+      <TfrxMemoView Name="Memo19" Left="0" Top="0" Width="873,07143" Height="22,67718" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="15" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="Jumlah"/>
+      <TfrxMemoView Name="Memo20" Left="899,52814" Top="0" Width="113,3859" Height="22,67718" StretchMode="smMaxHeight" DisplayFormat.FormatStr="%2.2n" DisplayFormat.Kind="fkNumeric" Font.Charset="1" Font.Color="0" Font.Height="-12" Font.Name="Arial" Font.Style="1" Frame.Typ="14" HAlign="haRight" ParentFont="False" VAlign="vaCenter" Text="[SUM(&#60;qryBAST.&#34;NOMINAL&#34;&#62;)]"/>
+      <TfrxMemoView Name="Memo22" Left="873,07143" Top="0" Width="26,45671" Height="22,67718" StretchMode="smMaxHeight" Font.Charset="1" Font.Color="-16777208" Font.Height="-11" Font.Name="Arial" Font.Style="0" Frame.Typ="12" ParentFont="False" VAlign="vaCenter" Text="Rp"/>
+    </TfrxFooter>
+    <TfrxChild Name="Child1" FillType="ftBrush" FillGap.Top="0" FillGap.Left="0" FillGap.Bottom="0" FillGap.Right="0" Height="37,7953" Left="0" Top="83,14966" Width="1009,13451" Stretched="True">
+      <TfrxMemoView Name="Memo9" Left="0" Top="0" Width="1046,92981" Height="18,89765" StretchMode="smMaxHeight" AutoWidth="True" Font.Charset="1" Font.Color="-16777208" Font.Height="-19" Font.Name="Arial" Font.Style="1" HAlign="haCenter" ParentFont="False" Text="DAFTAR BERITA ACARA SERAH TERIMA (BAST) NON PROPOSAL"/>
+    </TfrxChild>
+  </TfrxReportPage>
+</TfrxReport>

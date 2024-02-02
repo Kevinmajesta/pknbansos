@@ -1,0 +1,10 @@
+ReportName=Shared\Rpt_Daftar_SPP.fr3
+OutputType=xls
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2018\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+SQLFilter=SELECT a.id_aktivitas, a.nomor, a.tanggal, cast(substring(a.deskripsi from 1 for 5000) as varchar(5000)) deskripsi, a.id_skpd, s.kode_skpd_lkp, s.nama_skpd, a.nominal, a.beban, a.keperluan, a.nama_kegiatan FROM v_spp_kegiatan a JOIN v_skpd s ON s.id_skpd = a.id_skpd WHERE a.tahun =  '2018' AND a.id_skpd =  47

@@ -1,0 +1,11 @@
+ReportName=fr3\test_mssql.fr3
+OutputType=html, pdf, xls
+DriverName=MSSQL
+DBServer=server06
+DBName=dbMalang2008
+DBUser=sa
+DBPassword=sa
+Param01=Judul Laporan
+Param02=Isi Laporan
+Param03=Parameter Ketiga
+Param04=Parameter Keempat

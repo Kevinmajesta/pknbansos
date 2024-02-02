@@ -1,0 +1,11 @@
+ReportName=fr3\test_mysql.fr3
+OutputType=html, pdf, xls
+DriverName=MySQL
+DBServer=admin
+DBName=classic
+DBUser=tes
+DBPassword=tes
+Param01=Judul Laporan
+Param02=Isi Laporan
+Param03=Parameter Ketiga
+Param04=Parameter Keempat

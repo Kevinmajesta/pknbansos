@@ -1,0 +1,11 @@
+ReportName=fr3\test_pgsql.fr3
+OutputType=html, pdf, xls
+DriverName=PostgreSQL
+DBServer=admin
+DBName=classic
+DBUser=postgres
+DBPassword=root
+Param01=Judul Laporan
+Param02=Isi Laporan
+Param03=Parameter Ketiga
+Param04=Parameter Keempat

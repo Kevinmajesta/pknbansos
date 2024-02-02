@@ -1,0 +1,10 @@
+ReportName=Shared\Rpt_Daftar_Proposal.fr3
+OutputType=pdf
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2019\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+SQLFilter=SELECT a.id_proposal, a.nomor, a.tanggal, a.nama_pemohon, a.alamat_pemohon, a.nominal_diajukan, a.nominal_disetujui, a.status, e.nama_program, c.nama_kegiatan, f.nama_rekening, a.jenis_bantuan, a.kategori FROM proposal a LEFT JOIN rincian_anggaran b ON a.id_proposal = b.id_proposal LEFT JOIN v_form_anggaran_lkp c ON b.id_form_anggaran = c.id_form_anggaran LEFT JOIN kegiatan d ON c.id_kegiatan = d.id_kegiatan LEFT JOIN program e ON d.id_program = e.id_program LEFT JOIN rekening f ON b.id_rekening = f.id_rekening WHERE a.tahun =  '2019' AND a.nomor is not null

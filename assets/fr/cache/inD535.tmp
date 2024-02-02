@@ -1,0 +1,14 @@
+ReportName=Shared\Rpt_Form_NPHD.fr3
+OutputType=pdf
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2019\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+id=2236
+id_skpd=0
+tahun=2019
+status=Murni
+pejabat_nphd=
