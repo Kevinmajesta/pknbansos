@@ -4,7 +4,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 <style>
 	ul
 	{
-		margin: 0;
+		margin: 20;
 	}
 
 	#menu

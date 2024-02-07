@@ -1,62 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
 
+body {
+  min-height: 100vh;
+  background: white;
+  color: white;
+  background-size: cover;
+  background-position: center;
+}
 
-.sidebar {
+.side-bar {
+  background: #F2F5FA;
+  backdrop-filter: blur(15px);
+  width: 230px;
+  height: 670px;
   position: fixed;
-  width: 200px;
-  top: 40px;
-  bottom: 0;
-  left: 0;
-  z-index: 1000;
-  display: block;
-  padding: 40px 0;
-  overflow-x: hidden;
-  overflow-y: auto; /* Scrollable contents if viewport is shorter than content. */
-  background-color: #E4E9F4;
-  border-right: 1px solid #eee;
+  top: 0;
+  left: -250px;
+  overflow-y: auto;
+  transition: 0.6s ease;
+  transition-property: left;
 }
-
-.sidebar ul {
-  padding-left: 0;
-  margin-bottom: 20px;
+.side-bar::-webkit-scrollbar {
+  width: 0px;
 }
-
-.sidebar ul li {
-  border-bottom: 1px solid #ddd;
-  padding: 10px;
-}
-
-.sidebar ul li a {
-  padding: 10px;
-}
-
-.sidebar ul li a:hover {
-  background-color: #ddd;
-}
-
-.sidebar ul li.dropdown:hover > .dropdown-menu {
-  display: block;
-}
-
-.sidebar .dropdown-menu {
-  margin-top: 0;
-  border-top-left-radius: 0;
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-}
-
 
 .side-bar.active {
   left: 0;
 }
-
-.side-bar .menu .item .sub-menu {
-  background: #262627;
-  display: none;
+h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 25px;
+  padding-bottom: 13px;
+  font-family: sans-serif;
+  letter-spacing: 2px;
 }
 
-.side-bar .menu .item.active .sub-menu {
+.side-bar .menu {
+  width: 100%;
+  margin-top: 30px;
+}
+
+.side-bar .menu .item {
+  position: relative;
+  cursor: pointer;
+}
+
+.side-bar .menu .item a {
+  color: #fff;
+  font-size: 16px;
+  text-decoration: none;
   display: block;
+  padding: 5px 30px;
+  line-height: 60px;
+}
+
+.side-bar .menu .item a:hover {
+  background: #33363a;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item i {
+  margin-right: 15px;
+}
+
+.side-bar .menu .item a .dropdown {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  transition: 0.3s ease;
+}
+
+.side-bar .menu .item .sub-menu {
+  display: none; /* Add this line to hide the sub-menu by default */
+  background: #262627;
+  position: absolute;
+  top: 0;
+  left: 100%;
+}
+
+
+.side-bar .menu .item .sub-menu a {
+  padding-left: 20px; /* Sesuaikan padding kiri agar lebih terlihat terpisah dari menu utama */
+}
+
+
+.rotate {
+  transform: rotate(90deg);
+}
+
+.close-btn {
+  position: absolute;
+  color: #4c3cff;
+  font-size: 23px;
+  right: 0px;
+  margin: 15px;
+  cursor: pointer;
+  left: 180px; /* Initially hide the close button */
+  transition: left 0.6s ease; /* Add transition for smooth animation */
+
+}
+
+.menu-btn {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  font-size: 35px;
+  margin: 25px;
+  cursor: pointer;
+  visibility: hidden; /* Initially hide the menu button */
+  transition: visibility 0.6s ease; /* Add transition for smooth visibility change */
+}
+
+.side-bar.active + .menu-btn {
+  visibility: visible; /* Show the menu button when the sidebar is active */
+}
+
+
+.main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.main h1 {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 60px;
+  text-align: center;
+  line-height: 80px;
+}
+
+@media (max-width: 900px) {
+  .main h1 {
+    font-size: 40px;
+    line-height: 60px;
+  }
+}
+img {
+  width: 100px;
+  margin: 15px;
+  border-radius: 50%;
+  margin-left: 70px;
+  border: 3px solid #b4b8b9;
+}
+header {
+  background: #33363a;
+}
+.side-bar.active + .close-btn {
+  left: 250px; /* Show the close button when the sidebar is active */
 }
 
 .poppins-thin {
