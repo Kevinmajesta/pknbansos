@@ -63,7 +63,7 @@
 		      Search
 		    </button>
 		  </form>
-			 <span>Filter name by:</span>		  
+			 <span style="color: #000;">Filter name by:</span>		  
 		  <label class="form-inline">
         	<ul data-bind="template: 'letterTemplate'"> </ul>
       		<a id="clear" href="#" title="Clear Filter" data-bind="click: clearLetter, css: { disabled: filterLetter() === '' }">
@@ -84,7 +84,7 @@
             {{/each}}
         </script>
 		<button class="btn btn-success" data-bind="enable:canAdd ,click: add" >Tambah</button> <br /><br />
-		<table class="table table-striped"> 
+		<table class="table table-striped" style="color: #000;"> 
 				  <tr>
 			        <th>#</th>
 			        <th>Nama</th>

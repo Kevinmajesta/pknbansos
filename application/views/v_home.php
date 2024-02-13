@@ -45,14 +45,32 @@
                     <th scope="col">Nama Lokasi</th>
                 </tr>
             </thead>
+            <?php
+            $lokasi = array(
+                'Merauke',
+                'Semangga',
+                'Tanah Miring',
+                'Jagebob',
+                'Mutin',
+                'Ulilin',
+                'Eligobel',
+                'Kurik',
+                'Okaba',
+                'Kimaam',
+                'hahaha',
+                'adi ganteng'
+            );
+            ?>
+
             <tbody>
-                <?php for ($i = 1; $i <= 10; $i++) : ?>
+                <?php for ($i = 0; $i < count($lokasi); $i++) : ?>
                     <tr>
-                        <th scope="row"><?php echo $i; ?></th>
-                        <td>Lokasi <?php echo $i; ?></td>
+                        <th scope="row"><?php echo $i + 1; ?></th>
+                        <td><?php echo $lokasi[$i]; ?></td>
                     </tr>
                 <?php endfor; ?>
             </tbody>
+
         </table>
     </div>
 </body>

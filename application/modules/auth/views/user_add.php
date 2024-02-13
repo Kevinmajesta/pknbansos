@@ -18,12 +18,12 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 	</ul>
 
 	<div class="tab-content" style="height:430px">
-		<div class="tab-pane active" id="home">
-			<div class="control-group" data-bind="validationElement: username">
-				<label class="control-label" for="inputUsername">
+		<div class="tab-pane active" id="home" >
+			<div class="control-group" data-bind="validationElement: username" >
+				<label class="control-label" for="inputUsername" >
 					Username
 				</label>
-				<div class="controls">
+				<div class="controls" >
 					<input type="text" id="username" placeholder="Username" data-bind="value: username">
 				</div>
 			</div>
@@ -32,7 +32,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 					Nama Operator
 				</label>
 				<div class="controls">
-					<input type="text" id="name" placeholder="Nama Operator" data-bind="value: name">
+					<input type="text" id="name" placeholder="Nama Operatorr" data-bind="value: name">
 				</div>
 			</div>
 			<div class="control-group">

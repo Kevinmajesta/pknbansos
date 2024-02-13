@@ -145,17 +145,17 @@ class Laporan extends CI_Controller {
         $html .= '</select></div>';
       }
     }
-    $html .= '<label class="radio">';
+    $html .= '<label class="radio" >';
     $html .= '<input type="radio" name="format" id="formatPdf" value="pdf" checked />';
-    $html .= '<img src="'.base_url().'assets/img/pdf.png">';
+    $html .= '<img src="'.base_url().'assets/img/pdf.png" style="width:30px;height:30px;margin-left:0px;margin-top:0px">';
     $html .= '</label>';
     $html .= '<label class="radio">';
     $html .= '<input type="radio" name="format" id="formatXls" value="xls" />';
-    $html .= '<img src="'.base_url().'assets/img/xls.png">';
+    $html .= '<img src="'.base_url().'assets/img/xls.png" style="width:30px;height:30px;margin-left:0px;margin-top:0px">';
     $html .= '</label>';
-	$html .= '<label class="radio">';
+	$html .= '<label class="radio" >';
     $html .= '<input type="radio" name="format" id="formatDoc" value="docx" />';
-    $html .= '<img src="'.base_url().'assets/img/blue-document-word.png">';
+    $html .= '<img src="'.base_url().'assets/img/blue-document-word.png" style="width:30px;height:30px;margin-left:0px;margin-top:0px">';
     $html .= '</label>';
 
     echo json_encode($html);

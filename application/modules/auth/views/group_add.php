@@ -171,7 +171,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 <h4><?php //echo $caption; ?></h4>
 <h4><legend id="bc" data-bind="text: title"></legend></h4>
 
-<form id="frm" class="form-horizontal" method="post" action="<?php echo base_url(); ?>group/group_proses">
+<form id="frm" class="form-horizontal" method="post"  action="<?php echo base_url(); ?>group/group_proses" >
 	<div class="control-group" data-bind="validationElement: username">
 		<label class="control-label" for="inputUsername" >
 			Username
@@ -181,7 +181,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 		</div>
 	</div>
 	<div class="control-group">
-		<label class="control-label" for="inputName">
+		<label class="control-label" for="inputName" >
 			Nama Operator
 		</label>
 		<div class="controls">
@@ -270,7 +270,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 	var ModelGroup = function (){
 		var self = this;
 		self.modul = 'Group';
-		self.title = 'Privacy Setting';
+		self.title = 'Privacy Setting	';
 		self.akses_level = ko.observable(03);
 		self.id = ko.observable('<?php echo isset($data['ID'])?$data['ID']:0 ?>');
 		self.username = ko.observable('<?php echo isset($isi['USERNAME'])?$isi['USERNAME']:'' ?>')
