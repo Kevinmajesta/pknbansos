@@ -197,7 +197,7 @@
 			var field 	= $("#field").val();
 			var oper 	= $("#oper").val();
 			var string 	= $("#string").val();
-			
+		
 			var grid = $("#grid");
 			var postdata = grid.jqGrid('getGridParam','postData');
 			$.extend (postdata,

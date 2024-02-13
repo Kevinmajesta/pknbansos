@@ -173,7 +173,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 
 <form id="frm" class="form-horizontal" method="post"  action="<?php echo base_url(); ?>group/group_proses" >
 	<div class="control-group" data-bind="validationElement: username">
-		<label class="control-label" for="inputUsername" >
+		<label class="control-label" for="inputUsername" style="color: #000;">
 			Username
 		</label>
 		<div class="controls">
@@ -181,7 +181,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 		</div>
 	</div>
 	<div class="control-group">
-		<label class="control-label" for="inputName" >
+		<label class="control-label" for="inputName" style="color: #000;	">
 			Nama Operator
 		</label>
 		<div class="controls">
@@ -190,7 +190,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 	</div>
 	
 	<div class="control-group">
-		<label class="control-label" for="inputAkses">
+		<label class="control-label" for="inputAkses" style="color: #000;">
 		  Hak Akses
 		</label>
 		

@@ -60,7 +60,7 @@
     </script>
 </head>
 
-<body>
+<body style>
     <!--START NAVBAR -->
     <div class="navbar navbar-inverse navbar-fixed-top" style="height: 55px;">
         <div class="navbar-inner" style="background: #2A5DC4;height: 55px;">
@@ -109,10 +109,6 @@
                                         <i style="font-size:14px; padding-top:3px; padding-right:20px;" class="icon-lock"></i>Privacy Settings</a>
                                 </li>
                                 <li>
-                                    <a href="error.htm">
-                                        <i style="font-size:14px; padding-top:3px; padding-right:20px;" class="icon-cog"></i>System Settings</a>
-                                </li>
-                                <li>
                                     <a href="<?php echo base_url() ?>logout" title="Logout" class="medium twitter button radius" style="text-decoration:none;">
                                         <i style="font-size:16px; padding-top:3px; padding-right:20px;" class="icon-off"></i>Log out
                                     </a>
@@ -125,7 +121,7 @@
         </div>
     </div>
     <!-- START SUB-NAVBAR -->
-    <div class="menu-btn" style="margin-top: 35px;">
+    <div class="menu-btn" style="margin-top: 35px;margin-right: 100px;position: -ms-page;">
         <i class="fas fa-bars"></i>
     </div>
     <div class="side-bar" style="margin-top:55px; ">
@@ -209,6 +205,7 @@
 
                 // Hide all sub-menus when the page loads
                 $('.sub-menu').hide();
+                
 
                 // Add the 'active' class to the sidebar by default
                 $('.side-bar').addClass('active');
