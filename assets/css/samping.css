@@ -13,6 +13,10 @@ body {
   background-position: center;
 }
 
+.container-samping{
+  display: flex;
+  z-index: 1001;
+}
 .side-bar {
   background: #F2F5FA;
   backdrop-filter: blur(15px);
@@ -99,6 +103,7 @@ h1 {
   color: #4c3cff;
   font-size: 23px;
   right: 0px;
+  left: 180px;
   margin: 15px;
   cursor: pointer;
   left: 180px; /* Initially hide the close button */
@@ -112,7 +117,7 @@ h1 {
   font-size: 35px;
   margin: 25px;
   cursor: pointer;
-  visibility: hidden; /* Initially hide the menu button */
+  visibility: visible; /* Initially hide the menu button */
   transition: visibility 0.6s ease; /* Add transition for smooth visibility change */
 }
 
@@ -139,6 +144,7 @@ h1 {
 @media (max-width: 900px) {
   .main h1 {
     font-size: 40px;
+    left: -250px;
     line-height: 60px;
   }
 }

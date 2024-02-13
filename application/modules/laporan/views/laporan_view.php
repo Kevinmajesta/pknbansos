@@ -1,14 +1,14 @@
 <legend>Laporan</legend>
 
-<ul id="navigasi" class="filetree"><?php echo $ul;?></ul>
+<ul id="navigasi" class="filetree" style="color: black;"><?php echo $ul;?></ul>
 
 <div id="modalFilter" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-	<div class="modal-header">
+	<div class="modal-header" style="width: 10px; height: 10px;">
 		<a class="close" data-dismiss="modal"><i class="icon-arrow-up"></i></a>
-		<h3>Filter</h3>
+		<h3 style="color: black;">Filter</h3>
 	</div>
-	<div class="modal-body" id="dialogFilter"></div>
-	<div class="modal-footer">
+	<div class="modal-body" id="dialogFilter" ></div>
+	<div class="modal-footer"  >
 		<button class="btn" data-dismiss="modal" aria-hidden="true">Batal</button>
 		<button class="btn btn-primary" id="pilih">Oke</button>
 	</div>

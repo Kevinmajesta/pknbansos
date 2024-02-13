@@ -55,7 +55,7 @@
 
 <div id="alphaFilter">
             
-		  <form class="form-search" id="searchForm">
+		  <form class="form-search" id="searchForm"   >
 		    <input id="term" type="text" class="input-medium search-query" placeholder="Search">
 			<a data-bind="click: setTerm, disable: filterTerm"><i data-bind="visible: filterTerm() ==''" style="margin-left: -25px;" class="icon-search"></i></a>
 			<a data-bind="visible: filterTerm, click: clearTerm" title="Clear search" href="#"><i style="margin-left: -25px;" class="icon-remove"></i></a>
@@ -84,7 +84,7 @@
             {{/each}}
         </script>
 		<button class="btn btn-success" data-bind="enable:canAdd ,click: add" >Tambah</button> <br /><br />
-		<table class="table table-striped">
+		<table class="table table-striped"> 
 				  <tr>
 			        <th>#</th>
 			        <th>Nama</th>
