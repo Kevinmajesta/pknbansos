@@ -60,7 +60,7 @@
     </script>
 </head>
 
-<body style>
+<body>
     <!--START NAVBAR -->
     <div class="navbar navbar-inverse navbar-fixed-top" style="height: 55px;">
         <div class="navbar-inner" style="background: #2A5DC4;height: 55px;">
@@ -121,7 +121,7 @@
         </div>
     </div>
     <!-- START SUB-NAVBAR -->
-    <div class="menu-btn" style="margin-top: 35px;margin-right: 100px;position: -ms-page;">
+    <div class="menu-btn" style="margin-top: 35px;">
         <i class="fas fa-bars"></i>
     </div>
     <div class="side-bar" style="margin-top:55px; ">

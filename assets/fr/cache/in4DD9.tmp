@@ -1,0 +1,10 @@
+ReportName=Shared\Rpt_Daftar_Disposisi.fr3
+OutputType=xls
+DriverName=firebird
+Connection=DB Express
+DBPort=
+DBServer=localhost
+DBName=C:\wamp\www\SIMHIBANSOS_2019\database\BANSOS.FDB
+DBUser=sysdba
+DBPassword=masterkey
+SQLFilter=SELECT a.id_proposal, a.nomor nomor_disposisi, a.tanggal, a.catatan, iif(a.keputusan = 1, 'Diterima', 'Ditolak') keputusan, b.nomor nomor_uji, c.nomor nomor_proposal, c.nama_pemohon, c.alamat_pemohon, c.nominal_diajukan FROM disposisi a JOIN pengujian b ON a.id_proposal = b.id_proposal JOIN proposal c ON a.id_proposal = c.id_proposal WHERE EXTRACT( YEAR FROM a.tanggal) =  '2019'
