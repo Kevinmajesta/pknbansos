@@ -11,7 +11,7 @@
 		<input type="text" name="string" id="string" class="span7">
 		<a class="btn btn-primary" href="#" id="filter"><i class="icon-search icon-white"></i> Filter</a>
 	</fieldset>
-	<table id="grid"></table>
+	<table id="grid" style="z-index: 999;"></table>
 	<div id="pager"></div>
 
 	<script type="text/javascript">

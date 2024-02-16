@@ -1,4 +1,3 @@
-
 <fieldset>
 	<legend><?php echo $breadcrumbs;?></legend>
 </fieldset>
@@ -20,7 +19,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 	<div class="tab-content" style="height:430px">
 		<div class="tab-pane active" id="home" >
 			<div class="control-group" data-bind="validationElement: username" >
-				<label class="control-label" for="inputUsername" >
+				<label class="control-label" for="inputUsername" style="color: black;" >
 					Username
 				</label>
 				<div class="controls" >
@@ -28,7 +27,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="inputName">
+				<label class="control-label" for="inputName" style="color: black;">
 					Nama Operator
 				</label>
 				<div class="controls">
@@ -36,22 +35,22 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 				</div>
 			</div>
 			<div class="control-group">
-				<label class="control-label" for="inputName">
+				<label class="control-label" for="inputName" style="color: black;">
 					Icon
 				</label>
 				<div class="controls">
 					<div class="fileupload fileupload-new" data-provides="fileupload">
-						<div class="fileupload-new thumbnail" style="width: 63px; height: 68px;">
+						<div class="fileupload-new thumbnail" style="width: 68px; height: 68px; margin-right: 10px;">
 							<?php
 							if (isset($data['ICON'])) {
 
 							?>
-								<img src="<?php echo base_url() . 'assets/img/user/' . $data['ICON']; ?>" />
+								<img style="margin-top:0px; width: 60px; height: 60px;" src="<?php echo base_url() . 'assets/img/user/' . $data['ICON']; ?>" />
 							<?php
 
 							} else {
 							?>
-								<img src="http://www.placehold.it/63x68/EFEFEF/AAAAAA" />
+								<img style="margin-top:0px; width: 60px; height: 60px;" src="http://www.placehold.it/63x68/EFEFEF/AAAAAA" />
 							<?php
 							}
 							?>
@@ -64,7 +63,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 						}
 						?>
 						<div class="fileupload-preview fileupload-exists thumbnail" style="width: 50px; height: 50px;"></div>
-						<span class="btn btn-file">
+						<span class="btn btn-file" style="color: black;">
 							<span class="fileupload-new">
 								Select image
 							</span>
@@ -73,12 +72,12 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 							</span>
 							<input type="file" id="image" name="image" data-bind="value: image">
 						</span>
-						<a href="#" class="btn fileupload-exists" data-dismiss="fileupload">Remove</a>
-					</div>Ukuran Max 100kb
+						<a href="#" class="btn fileupload-exists" data-dismiss="fileupload" style="color: black;">Remove</a>
+					</div><p style="color: black; font-size:12px;">Ukuran Max 100kb</p>
 				</div>
 			</div>
 			<div class="control-group" data-bind="validationElement: email">
-				<label class="control-label" for="inputEmail">
+				<label class="control-label" for="inputEmail" style="color: black;">
 					Email
 				</label>
 				<div class="controls">
@@ -86,7 +85,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 				</div>
 			</div>
 			<div class="control-group" data-bind="validationElement: guser">
-				<label class="control-label" for="inputGUser">
+				<label class="control-label" for="inputGUser" style="color: black;">
 					Group User
 				</label>
 				<div class="controls">
@@ -113,7 +112,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 					</select>
 				</div>
 			</div>
-			<div class="control-group" data-bind="validationElement: id_skpd">
+			<div class="control-group" data-bind="validationElement: id_skpd" style="color: black;">
 				<label class="control-label" for="inputSKPD">
 					SKPD
 				</label>
@@ -123,7 +122,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 				</div>
 			</div>
 			<div class="controls-row">
-				<label class="control-label" for="ppkd">PPKD</label>
+				<label class="control-label" for="ppkd" style="color: black;">PPKD</label>
 				<div class="controls">
 					<input type="checkbox" class="checkbox" id="ppkd" data-bind="checked: ppkd" disabled="1" />
 				</div>
@@ -132,7 +131,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 		<div class="tab-pane" id="profile">
 			<div data-bind="visible: mode() === 'edit'">
 				<div class="control-group" data-bind="validationElement: old_passwd">
-					<label class="control-label" for="inputPassword" data-bind="validationElement: old_passwd">
+					<label class="control-label" for="inputPassword" data-bind="validationElement: old_passwd" style="color: black;">
 						Password Lama
 					</label>
 					<div class="controls" data-bind="validationElement: old_passwd">
@@ -140,7 +139,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 					</div>
 				</div>
 				<div class="control-group" data-bind="validationElement: passwd">
-					<label class="control-label" for="inputPassword" data-bind="validationElement: passwd">
+					<label class="control-label" for="inputPassword" data-bind="validationElement: passwd" style="color: black;">
 						Password baru
 					</label>
 					<div class="controls">
@@ -148,7 +147,7 @@ if (!defined('BASEPATH')) exit('No direct script access allowed');
 					</div>
 				</div>
 				<div class="control-group" data-bind="validationElement: repasswd">
-					<label class="control-label" for="inputPassword" data-bind="validationElement: repasswd">
+					<label class="control-label" for="inputPassword" data-bind="validationElement: repasswd" style="color: black;">
 						Ulangi Password baru
 					</label>
 					<div class="controls">

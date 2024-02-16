@@ -60,7 +60,7 @@
     </script>
 </head>
 
-<body>
+<body style>
     <!--START NAVBAR -->
     <div class="navbar navbar-inverse navbar-fixed-top" style="height: 55px;">
         <div class="navbar-inner" style="background: #2A5DC4;height: 55px;">
@@ -121,7 +121,7 @@
         </div>
     </div>
     <!-- START SUB-NAVBAR -->
-    <div class="menu-btn" style="margin-top: 35px;">
+    <div class="menu-btn" style="margin-top: 35px;margin-right: 100px;position: -ms-page;">
         <i class="fas fa-bars"></i>
     </div>
     <div class="side-bar" style="margin-top:55px; ">
@@ -181,77 +181,94 @@
         </ul>
     </div>
     <script type="text/javascript">
-        $(document)
-            .ready(function() {
-                // Prevent default behavior of sidebar links
-                $('.sidebar-link')
-                    .click(function(e) {
-                        e.preventDefault();
-                        // Add additional logic if needed For example, navigate to the link using
-                        // JavaScript
-                        window.location.href = $(this).attr('href');
-                    });
+        $(document).ready(function() {
+            function handleWindowResize() {
+                if ($(window).width() <= 1400) { // Change 1400 to your desired breakpoint
+                $('.side-bar').removeClass('active'); // Hide sidebar if window width is less than or equal to 1400 pixels
+                $('.menu-btn').prop('disabled', true);
+                $('.close-btn').prop('disabled', true);
+                } else {
+                    $('.side-bar').addClass('active'); // Show sidebar otherwise
+                    $('.menu-btn').prop('disabled', false);
+                    $('.close-btn').prop('disabled', false);
+                }
+            }
 
-                // jQuery for toggle sub menus
-                $('.sub-btn').click(function() {
-                    // Toggle the visibility of the clicked sub-menu
-                    $(this)
-                        .next('.sub-menu')
-                        .slideToggle();
-                    $(this)
-                        .find('.dropdown')
-                        .toggleClass('rotate');
-                });
-
-                // Hide all sub-menus when the page loads
-                $('.sub-menu').hide();
-                
-
-                // Add the 'active' class to the sidebar by default
-                $('.side-bar').addClass('active');
-                // Set close-btn visibility initially
-                $('.close-btn').css("visibility", "visible");
-
-                // jQuery for expand and collapse the sidebar
-                $('.menu-btn').click(function() {
-                    // Add or remove the 'active' class to toggle the sidebar visibility
-                    $('.side-bar').toggleClass('active');
-                    // Toggle the visibility of close-btn
-                    $('.close-btn').css("visibility", function(index, value) {
-                        return value === 'hidden' ?
-                            'visible' :
-                            'hidden';
-                    });
-                });
-                $('.sub-menu').click(function() {
-                    $('.menu-btn').css("visibility", function(index, value) {
-                        return value === 'hidden' ?
-                            'visible' :
-                            'hidden';
-                    });
-                });
-
-                // Delay the appearance of the close-btn for 0.02 seconds
-                setTimeout(function() {
-                    $('.close-btn').css("visibility", "visible");
-                }, 400);
-
-                // jQuery for closing the sidebar
-                $('.close-btn').click(function() {
-                    // Add or remove the 'active' class to toggle the sidebar visibility
-                    $('.side-bar').toggleClass('active');
-                    // Toggle the visibility of close-btn
-                    $('.close-btn').css("visibility", function(index, value) {
-                        return value === 'hidden' ?
-                            'visible' :
-                            'hidden';
-                    });
-
-                    // Ensure that menu-btn is visible
-                    $('.menu-btn').css("visibility", "visible");
-                });
-
+            // Call the function initially
+            handleWindowResize();
+            // Add event listener for window resize
+            $(window).resize(function() {
+                handleWindowResize();
             });
+            // Prevent default behavior of sidebar links
+            $('.sidebar-link')
+                .click(function(e) {
+                    e.preventDefault();
+                    // Add additional logic if needed For example, navigate to the link using
+                    // JavaScript
+                    window.location.href = $(this).attr('href');
+                });
+
+            // jQuery for toggle sub menus
+            $('.sub-btn').click(function() {
+                // Toggle the visibility of the clicked sub-menu
+                $(this)
+                    .next('.sub-menu')
+                    .slideToggle();
+                $(this)
+                    .find('.dropdown')
+                    .toggleClass('rotate');
+            });
+
+            // Hide all sub-menus when the page loads
+            $('.sub-menu').hide();
+
+
+            // Add the 'active' class to the sidebar by default
+            $('.side-bar').addClass('active');
+            // Set close-btn visibility initially
+            $('.close-btn').css("visibility", "visible");
+
+            // jQuery for expand and collapse the sidebar
+            $('.menu-btn').click(function() {
+                // Add or remove the 'active' class to toggle the sidebar visibility
+                $('.side-bar').toggleClass('active');
+                // Toggle the visibility of close-btn
+                $('.close-btn').css("visibility", function(index, value) {
+                    return value === 'hidden' ?
+                        'visible' :
+                        'hidden';
+                });
+            });
+            $('.sub-menu').click(function() {
+                $('.menu-btn').css("visibility", function(index, value) {
+                    return value === 'hidden' ?
+                        'visible' :
+                        'hidden';
+                });
+            });
+
+            // Delay the appearance of the close-btn for 0.02 seconds
+            setTimeout(function() {
+                $('.close-btn').css("visibility", "visible");
+            }, 400);
+
+            // jQuery for closing the sidebar
+            $('.close-btn').click(function() {
+                // Add or remove the 'active' class to toggle the sidebar visibility
+                $('.side-bar').toggleClass('active');
+                // Toggle the visibility of close-btn
+                $('.close-btn').css("visibility", function(index, value) {
+                    return value === 'hidden' ?
+                        'visible' :
+                        'hidden';
+                });
+
+                // Ensure that menu-btn is visible
+                $('.menu-btn').css("visibility", "visible");
+            });
+
+        });
     </script>
 
     <!--END NAVBAR -->
