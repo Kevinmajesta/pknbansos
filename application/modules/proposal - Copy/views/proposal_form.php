@@ -9,7 +9,7 @@
         <fieldset class="span3">
           <div class="controls-row">
             <div class="control-group pull-left span10" data-bind="validationElement: no" >
-              <label class="control-label" for="no">Nomor Proposal</label>
+              <label class="control-label" for="no" style="color: black;">Nomor Proposal</label>
               <input type="text" class="span12" id="no" data-bind="value: no" required />
             </div>
           </div>

@@ -7,7 +7,7 @@
 		<a class="close" data-dismiss="modal"><i class="icon-arrow-up"></i></a>
 		<h3 style="color: black;">Filter</h3>
 	</div>
-	<div class="modal-body" id="dialogFilter"></div>
+	<div class="modal-body" id="dialogFilter" style="color: black;"></div>
 	<div class="modal-footer">
 		<button class="btn" data-dismiss="modal" aria-hidden="true">Batal</button>
 		<button class="btn btn-primary" id="pilih">Oke</button>
