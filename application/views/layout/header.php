@@ -125,7 +125,7 @@
         <i class="fas fa-bars"></i>
     </div>
     <div class="side-bar" style="margin-top:55px; ">
-        <div class="close-btn" style="margin-top: 20px; ">
+        <div class="close-btn" style="margin-top: 15px; ">
             <i class="fas fa-times"></i>
         </div>
         <ul>

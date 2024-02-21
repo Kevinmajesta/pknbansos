@@ -57,8 +57,6 @@
                 'Kurik',
                 'Okaba',
                 'Kimaam',
-                'hahaha',
-                'adi ganteng'
             );
             ?>
 
