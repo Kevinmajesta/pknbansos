@@ -183,22 +183,28 @@
     <script type="text/javascript">
         $(document).ready(function() {
             function handleWindowResize() {
-                if ($(window).width() <= 1400) { // Change 1400 to your desired breakpoint
-                $('.side-bar').removeClass('active'); // Hide sidebar if window width is less than or equal to 1400 pixels
-                $('.menu-btn').prop('disabled', true);
-                $('.close-btn').prop('disabled', true);
+                if ($(window).width() <= 1400) { 
+                $('.side-bar').removeClass('active'); 
                 } else {
-                    $('.side-bar').addClass('active'); // Show sidebar otherwise
-                    $('.menu-btn').prop('disabled', false);
+                    $('.side-bar').addClass('active'); 
                     $('.close-btn').prop('disabled', false);
+                }
+            }
+            function handleWindowResizeHam() {
+                if ($(window).width() <= 1050) { 
+                $('.menu-btn').removeClass('active'); 
+                } else {
+                    $('.menu-btn').addClass('active');
                 }
             }
 
             // Call the function initially
             handleWindowResize();
+            handleWindowResizeHam();
             // Add event listener for window resize
             $(window).resize(function() {
                 handleWindowResize();
+                handleWindowResizeHam();
             });
             // Prevent default behavior of sidebar links
             $('.sidebar-link')

@@ -116,9 +116,14 @@ h1 {
   color: rgb(0, 0, 0);
   font-size: 35px;
   margin: 25px;
+  display: none;
   cursor: pointer;
   visibility: visible; /* Initially hide the menu button */
   transition: visibility 0.6s ease; /* Add transition for smooth visibility change */
+}
+
+.menu-btn.active {
+  display: block;
 }
 
 .side-bar.active + .menu-btn {
@@ -133,6 +138,7 @@ h1 {
   align-items: center;
   padding: 50px;
 }
+
 
 .main h1 {
   color: rgba(255, 255, 255, 0.8);
