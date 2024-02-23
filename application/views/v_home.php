@@ -32,33 +32,49 @@
 </script>
 
 <?php
-            $lokasi = array(
-                'Merauke',
-                'Semangga',
-                'Tanah Miring',
-                'Jagebob',
-                'Mutin',
-                'Ulilin',
-                'Eligobel',
-                'Kurik',
-                'Okaba',
-                'Kimaam',
-            );
-            ?>
+$lokasi = array(
+    'Merauke',
+    'Semangga',
+    'Tanah Miring',
+    'Jagebob',
+    'Mutin',
+    'Ulilin',
+    'Eligobel',
+    'Kurik',
+    'Okaba',
+    'Kimaam',
+);
+?>
 
 <body>
     <div class="container">
         <h1 class="awal" style="text-align: left;">Selamat Datang</h1>
         <p id="tanggal"></p>
         <p>Aplikasi Simhibansos atau Sistem Informasi Hibah dan bantuan Sosial adalah merupakan aplikasi yang mengelola atau mengatur mengenai hibah ataupun bantuan sosial baik ke lembaga atau pemerintah daerah atau juga individu/perorangan.</p>
-        <p>Jumlah lokasi: <?php echo count($lokasi); ?></p>
-        <p>Jumlah Proposal: <?php echo count($PROPOSAL); ?></p>
-        <p>Jumlah Pengujian: <?php echo count($pengujian); ?></p>
-        <p>Jumlah SKPD: <?php echo count($SKPD); ?></p>
-        <p>Jumlah Pejabat Daerah: <?php echo count($pejdaerah); ?></p>
+        <div class="containerbox">
+            <div class="lokasi" style="display: flex; flex-direction: column; align-items: center; justify-content: center;"">
+                <p style=" font-size: 35px; margin-bottom: -5px; color: #ffffff; font-weight: 800;"><?php echo count($lokasi); ?></p>
+                <p style="font-size: 12px; top: -50px; font-weight: 700; color: #edf0f5;">Jumlah Lokasi</p>
+            </div>
+            <div class=" proposal" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <p style=" font-size: 35px; margin-bottom: -5px; color: #ffffff; font-weight: 800;"><?php echo count($PROPOSAL); ?></p>
+                <p style="font-size: 12px; top: -50px; font-weight: 700; color: #ffffff;">Jumlah Proposal</p>
+            </div>
+            <div class="pengujian" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <p style=" font-size: 35px; margin-bottom: -5px; color: #ffffff; font-weight: 800;"><?php echo count($pengujian); ?></p>
+                <p style="font-size: 12px; top: -50px; font-weight: 700; color: #edf0f5;">Jumlah Pengujian</p>
+            </div>
+            <div class="skpd" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <p style=" font-size: 35px; margin-bottom: -5px; color: #ffffff; font-weight: 800;"><?php echo count($SKPD); ?></p>
+                <p style="font-size: 12px; top: -50px; font-weight: 700; color: #ffffff;">Jumlah SKPD</p>
+            </div>
+            <div class="pejabat" style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
+                <p style=" font-size: 35px; margin-bottom: -5px; color: #ffffff; font-weight: 800;"><?php echo count($pejdaerah); ?></p>
+                <p style="font-size: 12px; top: -50px; font-weight: 700; color: #edf0f5;">Jumlah Pejabat Daerah</p>
 
+            </div>
+        </div>
 
-        
         <h1 style="text-align: left;">Daftar Lokasi</h1>
 
         <table class="table">
@@ -68,7 +84,7 @@
                     <th scope="col">Nama Lokasi</th>
                 </tr>
             </thead>
-            
+
 
             <tbody>
                 <?php for ($i = 0; $i < count($lokasi); $i++) : ?>
@@ -84,6 +100,71 @@
 </body>
 
 <style>
+    .containerbox {
+        width: auto;
+        height: 200px;
+        /* background-color: #f2f2f2; */
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: left;
+    }
+
+    .lokasi {
+        width: 155px;
+        height: 155px;
+        background-color: #2A5DC4;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .lokasi:hover,
+    .pengujian:hover,
+    .pejabat:hover {
+        background-color: #3E7DE5;
+    }
+
+    .proposal:hover, .skpd:hover{
+        background-color: #4e94c1;
+    }
+
+    .proposal {
+        width: 155px;
+        height: 155px;
+        background-color: #26547c;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .pengujian {
+        width: 155px;
+        height: 155px;
+        background-color: #2A5DC4;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .skpd {
+        width: 155px;
+        height: 155px;
+        background-color: #26547c;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .pejabat {
+        width: 155px;
+        height: 155px;
+        background-color: #2A5DC4;
+        border-radius: 10px;
+        margin: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    }
+
     body {
         font-family: 'Arial', sans-serif;
         margin: 0;

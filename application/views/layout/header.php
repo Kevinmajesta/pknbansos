@@ -130,8 +130,7 @@
         </div>
         <ul>
             <div class="item" style="margin-top: 20px; margin-left: 5px;">
-                <a href="<?php echo base_url() ?>/home" class="sidebar-link" style="color: #333;">
-                    <i></i>Beranda</a>
+                
 
                 <?php $menu =
                     $this->Group_model->get_backend_menu($this->session->userdata('group'));
