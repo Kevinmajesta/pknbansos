@@ -1,6 +1,6 @@
 <?php
 
-class Proposal extends Admin_Controller {
+class Proposal extends CI_Model {
 
   public function __construct()
   {
@@ -21,6 +21,31 @@ class Proposal extends Admin_Controller {
     $this->load->view('layout/template',$data);
   }
   
+
+  public function get_total_proposal() {
+    // Hubungkan ke database
+    $mysqli = new mysqli("localhost", "sysdba", "masterkey", "C:\wamp\www\SIMHIBANSOS_2019\database\BANSOS.FDB");
+
+    // Periksa koneksi
+    if ($mysqli->connect_errno) {
+        echo "Gagal terhubung ke MySQL: " . $mysqli->connect_error;
+        exit();
+    }
+
+    // Query untuk mengambil jumlah proposal dari database
+    $result = $mysqli->query("SELECT COUNT(*) AS total_proposal FROM proposal");
+
+    // Ambil jumlah proposal dari hasil query
+    $row = $result->fetch_assoc();
+    $totalProposal = $row['total_proposal'];
+
+    // Tutup koneksi
+    $mysqli->close();
+
+    return $totalProposal;
+}
+
+
   public function get_daftar()
   {
     $page = $_REQUEST['page']; // get the requested page

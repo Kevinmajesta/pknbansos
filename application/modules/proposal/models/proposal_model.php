@@ -1,5 +1,6 @@
 <?php
-class Proposal_model extends CI_Model {
+class Proposal_model extends CI_Model
+{
 
   var $id;
   var $nama_pmh;
@@ -17,10 +18,10 @@ class Proposal_model extends CI_Model {
   {
     // Call the Model constructor
     parent::__construct();
-    
+
     $this->tahun = $this->session->userdata('tahun');
     $this->skpd = $this->session->userdata('id_skpd');
-    
+
     $this->fieldmap = array(
       'id' => 'a.ID_PROPOSAL',
       'no' => 'a.NOMOR',
@@ -52,63 +53,71 @@ class Proposal_model extends CI_Model {
       'tahun' => 'TAHUN',
       'nik' => 'NIK'
     );
-    
   }
 
   function fill_data()
   {
-    foreach($this->fieldmap_proposal as $key => $value){
-      switch ($key)
-      {
-        case 'tgl'   : $$key = $this->input->post($key) ? prepare_date($this->input->post($key)) : NULL; break;
-        case 'tgl_lhr'   : $$key = $this->input->post($key) ? prepare_date($this->input->post($key)) : NULL; break;
-        case 'tahun' : $$key = $this->tahun; break;
-        default : $$key = $this->input->post($key) ? $this->input->post($key) : NULL;
+    foreach ($this->fieldmap_proposal as $key => $value) {
+      switch ($key) {
+        case 'tgl':
+          $$key = $this->input->post($key) ? prepare_date($this->input->post($key)) : NULL;
+          break;
+        case 'tgl_lhr':
+          $$key = $this->input->post($key) ? prepare_date($this->input->post($key)) : NULL;
+          break;
+        case 'tahun':
+          $$key = $this->tahun;
+          break;
+        default:
+          $$key = $this->input->post($key) ? $this->input->post($key) : NULL;
       }
       $this->data[$value] = $$key;
     }
   }
-  
+
+  public function index()
+  {
+    $this->load->model('proposal_model');
+    $data['title'] = 'Judul Halaman Anda';
+    $data['totalProposal'] = $this->proposal_model->get_total_proposal();
+    $this->load->view('home_view', $data);
+  }
+
   // ----- search advance ---- >>
   function get_data_fields()
   {
     $bantuan = $this->db->query("SELECT DISTINCT r.JENIS_BANTUAN FROM KATEGORI_PEMOHON r")->result_array();
-    foreach ($bantuan as $key=>$val)
-    {
+    foreach ($bantuan as $key => $val) {
       $opt_bantuan[$val['JENIS_BANTUAN']] = $val['JENIS_BANTUAN'];
     }
     $kategori = $this->db->query("SELECT DISTINCT r.KATEGORI FROM KATEGORI_PEMOHON r")->result_array();
-    foreach ($kategori as $key=>$val)
-    {
+    foreach ($kategori as $key => $val) {
       $opt_kategori[$val['KATEGORI']] = $val['KATEGORI'];
     }
-  
-    $fields = array( 
-              'no' => array('name' => 'Nomor Proposal', 'kategori'=>'string'),
-              'nama_pmh' => array('name' => 'Nama Pemohon', 'kategori'=>'string'),
-              'alamat_pmh' => array('name' => 'Alamat Pemohon', 'kategori'=>'string'),
-              'tgl' => array('name' => 'Tanggal Masuk', 'kategori'=>'date'),
-              'program' => array('name' => 'Program', 'kategori'=>'string'),
-              'kegiatan' => array('name' => 'Kegiatan', 'kategori'=>'string'),
-              'rekening' => array('name' => 'Rekening', 'kategori'=>'string'),
-              'nom_aju' => array('name' => 'Nominal Pengajuan', 'kategori'=>'numeric'),
-              'nom_setuju' => array('name' => 'Nominal Persetujuan', 'kategori'=>'numeric'),
-              'status' => array('name' => 'Status', 'kategori'=>'predefined', 'options'=> array('Lolos Uji'=>'Lolos Uji', 'Lolos Rekomendasi'=>'Lolos Rekomendasi', 'Telah Dianggarkan'=>'Telah Dianggarkan')),
-             );
-    
+
+    $fields = array(
+      'no' => array('name' => 'Nomor Proposal', 'kategori' => 'string'),
+      'nama_pmh' => array('name' => 'Nama Pemohon', 'kategori' => 'string'),
+      'alamat_pmh' => array('name' => 'Alamat Pemohon', 'kategori' => 'string'),
+      'tgl' => array('name' => 'Tanggal Masuk', 'kategori' => 'date'),
+      'program' => array('name' => 'Program', 'kategori' => 'string'),
+      'kegiatan' => array('name' => 'Kegiatan', 'kategori' => 'string'),
+      'rekening' => array('name' => 'Rekening', 'kategori' => 'string'),
+      'nom_aju' => array('name' => 'Nominal Pengajuan', 'kategori' => 'numeric'),
+      'nom_setuju' => array('name' => 'Nominal Persetujuan', 'kategori' => 'numeric'),
+      'status' => array('name' => 'Status', 'kategori' => 'predefined', 'options' => array('Lolos Uji' => 'Lolos Uji', 'Lolos Rekomendasi' => 'Lolos Rekomendasi', 'Telah Dianggarkan' => 'Telah Dianggarkan')),
+    );
+
     return $fields;
   }
-  
+
   function insert_data()
   {
-    if (isset($this->data['ID_PROPOSAL']))
-    {
+    if (isset($this->data['ID_PROPOSAL'])) {
       $this->db->where('ID_PROPOSAL', $this->data['ID_PROPOSAL']);
       $this->db->update('PROPOSAL', $this->data);
       return $this->data['ID_PROPOSAL'];
-    }
-    else
-    {
+    } else {
       $this->db->insert('PROPOSAL', $this->data);
       $this->db->select_max('ID_PROPOSAL')->from('PROPOSAL');
       $rs = $this->db->get()->row_array();
@@ -128,43 +137,41 @@ class Proposal_model extends CI_Model {
 
     $this->db->trans_complete();
 
-    if ($this->db->trans_status() === FALSE)
-    {
+    if ($this->db->trans_status() === FALSE) {
       return FALSE;
     }
   }
-  
-  function check_nik($no,$nik)
+
+  function check_nik($no, $nik)
   {
     $id = $this->input->post('id');
 
-    if($id==0){
-    $this->db->select('first 1 a.tanggal, count(a.nik) nik_pakai');
-    $this->db->from('proposal a');
-    $this->db->where('a.id_proposal <>', $id);
-	$this->db->where('a.nik', $nik);
-	$this->db->group_by('a.tanggal');
-	$this->db->order_by('a.tanggal desc');
-	
-    $result = $this->db->get()->row_array();
-	}
-	else{
-	$this->db->select('first 1 a.tanggal,count(a.nik) nik_pakai');
-    $this->db->from('proposal a');
-	$this->db->where('a.nomor', $no);
-    $this->db->where('a.tahun', $this->tahun);
-    $this->db->where('a.id_proposal <>', $id);
-	$this->db->where('a.nik', $nik);
-	$this->db->group_by('a.tanggal');
-	$this->db->order_by('a.tanggal desc');
-    $result = $this->db->get()->row_array();
-	}
-    
-	return $result;
+    if ($id == 0) {
+      $this->db->select('first 1 a.tanggal, count(a.nik) nik_pakai');
+      $this->db->from('proposal a');
+      $this->db->where('a.id_proposal <>', $id);
+      $this->db->where('a.nik', $nik);
+      $this->db->group_by('a.tanggal');
+      $this->db->order_by('a.tanggal desc');
+
+      $result = $this->db->get()->row_array();
+    } else {
+      $this->db->select('first 1 a.tanggal,count(a.nik) nik_pakai');
+      $this->db->from('proposal a');
+      $this->db->where('a.nomor', $no);
+      $this->db->where('a.tahun', $this->tahun);
+      $this->db->where('a.id_proposal <>', $id);
+      $this->db->where('a.nik', $nik);
+      $this->db->group_by('a.tanggal');
+      $this->db->order_by('a.tanggal desc');
+      $result = $this->db->get()->row_array();
+    }
+
+    return $result;
   }
-  
-  
-  
+
+
+
   function kirim_proposal()
   {
     $id = $this->input->post('id');
@@ -172,20 +179,19 @@ class Proposal_model extends CI_Model {
     $this->db->trans_start();
     $this->db->where('ID_PROPOSAL', $id);
     $this->db->update('PROPOSAL', $data_post);
-    
+
     return $this->db->trans_status();
-    
   }
-  
+
   function get_data_jenis_bantuan()
   {
     $this->db->select('r.jenis_bantuan');
     $this->db->distinct('r.jenis_bantuan');
     $result = $this->db->get('kategori_pemohon r');
-    
+
     return $result;
   }
-  
+
   function get_data_kategori()
   {
     $bantuan = $this->input->post('bantuan');
@@ -194,55 +200,53 @@ class Proposal_model extends CI_Model {
     $this->db->where('r.jenis_bantuan', $bantuan);
     $this->db->order_by('r.no_urut', 'asc');
     $result = $this->db->get();
-    
+
     return $result;
   }
-  
-	function get_data($param, $isCount=FALSE, $CompileOnly=False)
-	{
-isset($param['limit']) && $param['limit'] ? $this->db->limit($param['limit']['end'], $param['limit']['start']) : '';
 
-		if (isset($param['m']) && $param['m'] == 'm' && $param['q'] !== ''){
-			foreach ($param['q'] as $key=>$val) {
-				$search_str = isset($val['searchString']) ? $val['searchString'] : '';
-				$search_str1 = isset($val['searchString1']) ? $val['searchString1'] : '';
-				$search_str2 = isset($val['searchString2']) ? $val['searchString2'] : '';
-				$flt[$val['searchField']] = array('search_str' => $search_str, 'search_str1' => $search_str1, 'search_str2' => $search_str2, 
-										'search_op' => $val['searchOper'], 'search_ctg' => $val['searchKategori']);
-			}
-			$wh = get_where_str($flt, $this->fieldmap);
-		  
-			$this->db->where($wh);
-		}
-		else if (isset($param['m']) && $param['m'] == 's' && $param['q'] !== ''){
-			$flt = array();
-			foreach($this->fieldmap as $key => $value){
-				$flt[$key] = array('search_str' => $param['q'], 'search_op' => 'cn');
-			}
-			$wh = get_where_str($flt, $this->fieldmap);
-			if ($wh) {
-				$count = count($wh);
-				$string = '(';
-				$i = 1;
-				foreach ($wh as $key=>$val) {
-					$string .= $key ." '". $val ."'";
-					if ($i < $count) $string .= ' OR ';
-					$i++;
-				}
-				$string .= ')';
+  function get_data($param, $isCount = FALSE, $CompileOnly = False)
+  {
+    isset($param['limit']) && $param['limit'] ? $this->db->limit($param['limit']['end'], $param['limit']['start']) : '';
 
-				$this->db->where($string);
-			}
-		}
-		else
-		{
-			if (isset($param['search']) && $param['search'] && $wh = get_where_str(array($param['search_field'] => $param['search_str']), $this->fieldmap))
-			{
-				$this->db->where($wh);
-			}
-		}
-		
-/* 		if (!empty($wh)) {
+    if (isset($param['m']) && $param['m'] == 'm' && $param['q'] !== '') {
+      foreach ($param['q'] as $key => $val) {
+        $search_str = isset($val['searchString']) ? $val['searchString'] : '';
+        $search_str1 = isset($val['searchString1']) ? $val['searchString1'] : '';
+        $search_str2 = isset($val['searchString2']) ? $val['searchString2'] : '';
+        $flt[$val['searchField']] = array(
+          'search_str' => $search_str, 'search_str1' => $search_str1, 'search_str2' => $search_str2,
+          'search_op' => $val['searchOper'], 'search_ctg' => $val['searchKategori']
+        );
+      }
+      $wh = get_where_str($flt, $this->fieldmap);
+
+      $this->db->where($wh);
+    } else if (isset($param['m']) && $param['m'] == 's' && $param['q'] !== '') {
+      $flt = array();
+      foreach ($this->fieldmap as $key => $value) {
+        $flt[$key] = array('search_str' => $param['q'], 'search_op' => 'cn');
+      }
+      $wh = get_where_str($flt, $this->fieldmap);
+      if ($wh) {
+        $count = count($wh);
+        $string = '(';
+        $i = 1;
+        foreach ($wh as $key => $val) {
+          $string .= $key . " '" . $val . "'";
+          if ($i < $count) $string .= ' OR ';
+          $i++;
+        }
+        $string .= ')';
+
+        $this->db->where($string);
+      }
+    } else {
+      if (isset($param['search']) && $param['search'] && $wh = get_where_str(array($param['search_field'] => $param['search_str']), $this->fieldmap)) {
+        $this->db->where($wh);
+      }
+    }
+
+    /* 		if (!empty($wh)) {
 		  $count = count($wh);
 		  $string = '(';
 		  $i = 1;
@@ -255,13 +259,12 @@ isset($param['limit']) && $param['limit'] ? $this->db->limit($param['limit']['en
 
 		  $this->db->where($string);
 		}
- */    
-		if (isset($param['sort_by']) && $param['sort_by'] != null && !$isCount && $ob = get_order_by_str($param['sort_by'], $this->fieldmap))
-		{
-			$this->db->order_by($ob, $param['sort_direction']);
-		}
-    
-		$this->db->select("
+ */
+    if (isset($param['sort_by']) && $param['sort_by'] != null && !$isCount && $ob = get_order_by_str($param['sort_by'], $this->fieldmap)) {
+      $this->db->order_by($ob, $param['sort_direction']);
+    }
+
+    $this->db->select("
 			a.id_proposal,
 			a.nomor,
 			a.tanggal,
@@ -276,32 +279,27 @@ isset($param['limit']) && $param['limit'] ? $this->db->limit($param['limit']['en
 			a.jenis_bantuan,
 			a.kategori
 		");
-		$this->db->from('proposal a');
-		$this->db->join('rincian_anggaran b', 'a.id_proposal = b.id_proposal', 'left');
-		$this->db->join('v_form_anggaran_lkp c', 'b.id_form_anggaran = c.id_form_anggaran', 'left');
-		$this->db->join('kegiatan d', 'c.id_kegiatan = d.id_kegiatan', 'left');
-		$this->db->join('program e', 'd.id_program = e.id_program', 'left');
-		$this->db->join('rekening f', 'b.id_rekening = f.id_rekening', 'left');
-		$this->db->where('a.tahun', $this->tahun);
-		$this->db->where('a.nomor is not null');
-		
-		if ($isCount) {
-		  $result = $this->db->count_all_results();
-		  return $result;
-		}
-		else
-		{
-		  if ($CompileOnly)
-		  {
-			return $this->db->get_compiled_select();
-		  }
-		  else
-		  {
-			$result = $this->db->get()->result_array();
-			return $result;
-		  }
-		}
-	}
+    $this->db->from('proposal a');
+    $this->db->join('rincian_anggaran b', 'a.id_proposal = b.id_proposal', 'left');
+    $this->db->join('v_form_anggaran_lkp c', 'b.id_form_anggaran = c.id_form_anggaran', 'left');
+    $this->db->join('kegiatan d', 'c.id_kegiatan = d.id_kegiatan', 'left');
+    $this->db->join('program e', 'd.id_program = e.id_program', 'left');
+    $this->db->join('rekening f', 'b.id_rekening = f.id_rekening', 'left');
+    $this->db->where('a.tahun', $this->tahun);
+    $this->db->where('a.nomor is not null');
+
+    if ($isCount) {
+      $result = $this->db->count_all_results();
+      return $result;
+    } else {
+      if ($CompileOnly) {
+        return $this->db->get_compiled_select();
+      } else {
+        $result = $this->db->get()->result_array();
+        return $result;
+      }
+    }
+  }
 
   function get_data_by_id($id)
   {
@@ -359,8 +357,7 @@ isset($param['limit']) && $param['limit'] ? $this->db->limit($param['limit']['en
     $this->db->delete('proposal');
     $this->db->trans_complete();
 
-    if ($this->db->trans_status() === FALSE)
-    {
+    if ($this->db->trans_status() === FALSE) {
       return FALSE;
     }
   }
@@ -376,59 +373,48 @@ isset($param['limit']) && $param['limit'] ? $this->db->limit($param['limit']['en
     $this->db->from('pengujian a');
     $this->db->where('a.id_proposal', $id);
     $result2 = $this->db->get()->row_array();
-    
-    if ($result1 && $result1['DISPOSISI_PAKAI'] > 0 )
-    {
+
+    if ($result1 && $result1['DISPOSISI_PAKAI'] > 0) {
       return FALSE;
-    }
-    else if ($result2 && $result2['PENGUJIAN_PAKAI'] > 0 )
-    {
+    } else if ($result2 && $result2['PENGUJIAN_PAKAI'] > 0) {
       return FALSE;
-    }
-    else
-    {
+    } else {
       return TRUE;
     }
   }
-  
+
   function check_posted($id)
   {
     $this->db->select('a.posted');
     $this->db->from('proposal a');
     $this->db->where('a.id_proposal', $id);
     $result = $this->db->get()->row_array();
-    
-    if ($result['POSTED'] === 1)
-    {
+
+    if ($result['POSTED'] === 1) {
       return TRUE;
-    }
-    else
-    {
+    } else {
       return FALSE;
     }
   }
-  
+
   function check_duplikat_number($no)
   {
     $id = $this->input->post('id');
-	
+
     $this->db->select('count(a.nomor) nomor_pakai');
     $this->db->from('proposal a');
     $this->db->where('a.nomor', $no);
     $this->db->where('a.tahun', $this->tahun);
     $this->db->where('a.id_proposal <>', $id);
     $result = $this->db->get()->row_array();
-    
-    if ($result && $result['NOMOR_PAKAI'] > 0)
-    {
+
+    if ($result && $result['NOMOR_PAKAI'] > 0) {
       return FALSE;
-    }
-    else
-    {
+    } else {
       return TRUE;
     }
   }
-  
+
   function get_jabatan_skpd()
   {
     $this->db->select('*');
@@ -442,9 +428,8 @@ isset($param['limit']) && $param['limit'] ? $this->db->limit($param['limit']['en
   {
     $this->db->select('JABATAN,NIP');
     $this->db->from('PEJABAT_SKPD');
-    $this->db->where('ID_PEJABAT_SKPD',$jabat);
+    $this->db->where('ID_PEJABAT_SKPD', $jabat);
     $result = $this->db->get();
     return $result->row_array();
   }
-  
 }

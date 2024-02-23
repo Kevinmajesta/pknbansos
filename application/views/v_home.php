@@ -31,21 +31,7 @@
     setInterval(updateDate, 100);
 </script>
 
-<body>
-    <div class="container">
-        <h1 class="awal" style="text-align: left;">Selamat Datang</h1>
-        <p id="tanggal"></p>
-        <p>Aplikasi Simbansos atau Sistem Informasi Hibah dan bantuan Sosial adalah merupakan aplikasi yang mengelola atau mengatur mengenai hibah ataupun bantuan sosial baik ke lembaga atau pemerintah daerah atau juga individu/perorangan.</p>
-        <h1 style="text-align: left;">Daftar Lokasi</h1>
-
-        <table class="table">
-            <thead>
-                <tr>
-                    <th scope="col">No</th>
-                    <th scope="col">Nama Lokasi</th>
-                </tr>
-            </thead>
-            <?php
+<?php
             $lokasi = array(
                 'Merauke',
                 'Semangga',
@@ -59,6 +45,30 @@
                 'Kimaam',
             );
             ?>
+
+<body>
+    <div class="container">
+        <h1 class="awal" style="text-align: left;">Selamat Datang</h1>
+        <p id="tanggal"></p>
+        <p>Aplikasi Simhibansos atau Sistem Informasi Hibah dan bantuan Sosial adalah merupakan aplikasi yang mengelola atau mengatur mengenai hibah ataupun bantuan sosial baik ke lembaga atau pemerintah daerah atau juga individu/perorangan.</p>
+        <p>Jumlah lokasi: <?php echo count($lokasi); ?></p>
+        <p>Jumlah Proposal: <?php echo count($PROPOSAL); ?></p>
+        <p>Jumlah Pengujian: <?php echo count($pengujian); ?></p>
+        <p>Jumlah SKPD: <?php echo count($SKPD); ?></p>
+        <p>Jumlah Pejabat Daerah: <?php echo count($pejdaerah); ?></p>
+
+
+        
+        <h1 style="text-align: left;">Daftar Lokasi</h1>
+
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">No</th>
+                    <th scope="col">Nama Lokasi</th>
+                </tr>
+            </thead>
+            
 
             <tbody>
                 <?php for ($i = 0; $i < count($lokasi); $i++) : ?>
